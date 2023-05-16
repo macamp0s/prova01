@@ -5,4 +5,12 @@ essa propriedade em determinado componente, entretanto, sendo necessário que ha
 até chegar no componente desejado.
 
 Com o contexto podemos passar essas propriedades somente para os componentes que realmente 
-precisamos dela, gerando assim um código mais limpo e menos confuso
+precisamos dela, gerando assim um código mais limpo e menos confuso.
+
+Props drilling:
+
+quero q um propriedade chegue em filho ->
+
+Bisavô -> Avô -> Pai -> Filho
+
+usecontext: somente quem for usar a prop
