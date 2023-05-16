@@ -1,0 +1,8 @@
+A utilizaçao de do hook de contexto em react pode ajudar a amenizar possiveis problemas
+gerados pelo chamado - props drilling - que acontence quando propriedades de um componente são
+passadas por diversos niveis de uma arvores de componentes, ate mesmo quando nao se utilizaria 
+essa propriedade em determinado componente, entretanto, sendo necessário que haja o caminho 
+até chegar no componente desejado.
+
+Com o contexto podemos passar essas propriedades somente para os componentes que realmente 
+precisamos dela, gerando assim um código mais limpo e menos confuso
