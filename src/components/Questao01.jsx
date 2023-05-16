@@ -19,14 +19,29 @@ const Questao01A = () => {
 
         return (
             //usando o map para percorrer o vetor e imprir o nome de cada aluno e sua media
+
+            
             <div>
 
                 {medias.map((aluno) => (
+                    
                     <div>
+                        
                         {aluno.nome} : {aluno.media}
                     </div>
-                ))}
+                    
+
+                   
+                ))
+                
+                
+                
+                } 
             </div>
+
+
+                   
+
         )
     }
 
@@ -34,7 +49,7 @@ const Questao01A = () => {
     return (
         <>
             <Questao01B alunos={alunos}></Questao01B>
-            <Filho falarpai={mensagem}></Filho>
+        
         </>
 
 
